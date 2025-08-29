@@ -1,3 +1,17 @@
-# Godot 4+ specific ignores
+﻿# Godot engine cache
+.import/
 .godot/
-/android/
+
+# Export presets (Godot can regenerate)
+export.cfg
+export_presets.cfg
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+/exports/
+
+# Local saves (your game writes these at runtime)
+user_saves/
